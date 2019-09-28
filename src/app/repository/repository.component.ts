@@ -7,10 +7,25 @@ import { Repository} from '../repository';
   styleUrls: ['./repository.component.css']
 })
 export class RepositoryComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
+  gitrepos:Repository;
+  constructor(public RepoRequestService:RepoRequestService) {
   }
 
-}
+
+ ngOnInit() {
+   this.searchRepo("Steve-design");
+ }
+
+ searchRepo(searchTerm){
+   this.RepoRequestService.searchRepo(searchTerm).then(
+     ()=>{
+       this.gitrepos=this.RepoRequestService.gitrepos;
+       
+
+     },
+     (error)=>{
+       console.log(error)
+     }
+   )
+    }
+  }
