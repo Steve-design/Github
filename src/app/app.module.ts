@@ -7,6 +7,7 @@ import { LandingComponent } from './landing/landing.component';
 import { SearchFormComponent } from './search-form/search-form.component';
 import { RepositoryComponent } from './repository/repository.component';
 import { DatePipe } from './date.pipe';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { DatePipe } from './date.pipe';
     LandingComponent,
     SearchFormComponent,
     RepositoryComponent,
-    DatePipe
+    DatePipe,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
