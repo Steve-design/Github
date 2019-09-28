@@ -30,12 +30,12 @@ export class UserRequestService {
     }
 
     let searchEndpoint= "https://api.github.com/users/"+searchTerm+"?access_token="+environment.GITHUB_API;
-    //  searchEndpoint += "&q"+searchTerm;
+    
     let promise = new Promise((resolve, reject)=>{
       this.http.get<Results>(searchEndpoint).toPromise().then(
         (results)=>{
            this.user = results;
-          // do something
+          
           console.log(results)
           resolve()
         },
