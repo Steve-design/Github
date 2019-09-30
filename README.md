@@ -1,27 +1,44 @@
-# API
+# Developer
+Stephen Mwanza
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.6.
+## Description
+This is an angular application that allows user to search for their Github accounts and other GitHubs from different software developers globally and their repositories. 
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Behaviour Driven Development(BDD)
+| Behavior  |      Input       |  Output
+|-------------|----------------|---------------|
+|The browser loads|The users input their name through the search form| Users submit form and the result is their Github information
+|---------------|----------------|----------------|
+|The browser loads|The navbar appears|The user clicks either the user or the repository and corresponding information is loaded.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Setup/Installation requirements
+Clone or download and unzip the repository from github, https://github.com/Steve-design/Github/. If you have git Use this command git clone  to clone the project. Run ng serve from your terminal Live Demo
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+###  Project live site
+To view the page click on the link below
 
-## Running unit tests
+https://Steve-design.github.io/Github/
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Development server
+Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
 
-## Running end-to-end tests
+### Build
+Run ng build to build the project. The build artifacts will be stored in the dist/ directory. Use the --prod flag for a production build.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+### Technologies Used
+* Angular CLI
+* Bootstrap
+* CSS
+* HTML
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### Support and Contact Details
+For any comments,suggestions,feedback or inquiries, contact me via email: ndundirokamau@gmail.com
+
+Make contributions to the code.
+
+### License
+This project is licensed under the MIT Open Source license Copyright &copy; 2019. Stephen Mwanza
