@@ -1,9 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { RepoRequestService } from '../repo-http/repo-request.service'
-
-
 import { Repository} from '../repository';
-import { from } from 'rxjs';
 @Component({
   selector: 'app-repository',
   templateUrl: './repository.component.html',
