@@ -28,7 +28,8 @@ export class UserRequestService {
         bio:string,
         public_repos: number
     }
-
+    console.log(searchTerm)
+    console.log('searchTerm')
     let searchEndpoint= "https://api.github.com/users/"+searchTerm+"?access_token="+environment.GITHUB_API;
     
     let promise = new Promise((resolve, reject)=>{
