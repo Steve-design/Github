@@ -9,6 +9,8 @@ import { RepositoryComponent } from './repository/repository.component';
 import { DatePipe } from './date.pipe';
 import { HttpClientModule } from "@angular/common/http";
 import { NavbarComponent } from './navbar/navbar.component';
+import { NgProgressModule } from '@ngx-progressbar/core';
+import { NgProgressHttpClientModule } from '@ngx-progressbar/http-client';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +24,9 @@ import { NavbarComponent } from './navbar/navbar.component';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    NgProgressModule.forRoot(),
+    NgProgressHttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
