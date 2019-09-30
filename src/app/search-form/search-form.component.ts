@@ -15,10 +15,12 @@ export class SearchFormComponent implements OnInit {
 
 
   search(){
+    console.log(this.searchTerm)
     this.emitSearch.emit(this.searchTerm)
   }
   onClickSubmit(data) {
-    alert("You entered GitHub name. Click OK to access the account " );
+    console.log(data.searchTerm)
+    this.emitSearch.emit(data.searchTerm)
  }
   ngOnInit() {
   }
