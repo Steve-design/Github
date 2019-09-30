@@ -1,0 +1,14 @@
+.body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAZ11ra1o_yAx44AChgBAxboV3aDNmN1JCJppvmrnxx-jBIaflVA");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover
+
+}
+.main{
+    margin-top: 10px;
+}
+#user{
+    margin-top: 100px;
+    margin-left: 20px;
+}
