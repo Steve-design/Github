@@ -16,9 +16,9 @@ export class UserRequestService {
       followers_url: any;
       following_url: any;
       repos_url: any;
-      followers:any;
-      following:any;
       login: any;
+      followers: number;
+      following: number;
       
        name: string,
         description: string, 
