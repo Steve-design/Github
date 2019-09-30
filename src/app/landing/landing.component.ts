@@ -8,14 +8,16 @@ import { Repository } from '../repository';
   styleUrls: ['./landing.component.css']
 })
 export class LandingComponent implements OnInit {
-
+  user: User;
+  repos: Repository;
+  
   constructor(public UserRequestService:UserRequestService)  { }
   
   searchUser(searchTerm){
     this.UserRequestService.searchUser(searchTerm).then(
       (results)=>{
         this.user = this.UserRequestService.user;
-    
+        
       },
       (error)=>{
         console.log(error)
