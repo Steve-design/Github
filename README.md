@@ -36,7 +36,7 @@ Run ng build to build the project. The build artifacts will be stored in the dis
 
 
 ### Support and Contact Details
-For any comments,suggestions,feedback or inquiries, contact me via email: ndundirokamau@gmail.com
+smzalendo31@gmail.com
 
 Make contributions to the code.
 
